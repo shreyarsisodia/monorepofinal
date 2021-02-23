@@ -1,0 +1,15 @@
+{
+  "name": "Podcast-Project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": ["**/react-native", "**/react-native/**"]
+  },
+  "private": true
+}
+
+
